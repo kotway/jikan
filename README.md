@@ -6,3 +6,4 @@ This is a Jikan configuration compatible with Railway.
 I spent way too long on this because Apache is horrible. Enjoy.
 
 Set any [Jikan configuration](https://github.com/jikan-me/jikan-rest/blob/master/.env.dist) (normally in .env) on Railway.
+
