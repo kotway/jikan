@@ -52,6 +52,7 @@ ENV QUEUE_CONNECTION=redis
 ENV CACHE_METHOD=legacy
 
 COPY ./run-jikan.sh .
+RUN chmod +x ./run-jikan.sh
 
 # If we use ENTRYPOINT here, `docker run` must be run with `--init`.
 # We don't want that, especially because Railway does not do that.
